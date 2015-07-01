@@ -4,8 +4,8 @@ Glossário de comandos
 
 :Disciplina: Fundamentos de Sistemas Operacionais
 :Professor: Jurandy Soares
-:Nome: Seu nome completo
-:Matrícula: Sua matrícula
+:Nome: Ícaro Luiz de Souza Lino
+:Matrícula: 20121144010486
 :Data: 01/07/2015
 
 cat
