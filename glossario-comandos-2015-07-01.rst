@@ -9,23 +9,40 @@ Glossário de comandos
 :Data: 01/07/2015
 
 cat
-  Descrição do comando
+  Mostra o conteúdo de um arquivo binário ou texto.
 
+  cat [opções] [diretório/arquivo] [diretório1/arquivo1]
+
+  opções
+  -n, --number
+  Mostra o número das linhas enquanto o conteúdo do arquivo é mostrado.
+
+  -s, --squeeze-blank
+  Não mostra mais que uma linha em branco entre um parágrafo e outro.
+  
 
 cd
-  Descrição do comando
+  Entra em um diretório.
+  
+  cd [diretório]
 
 
 cowsay
-  Descrição do comando
+  cowsay -f - Mostra a saída do comando cowsay (vaca) personalizado.
 
 
 echo
-  Descrição do comando
+  Mostra mensagens.
+  
+  echo [mensagem]
+  
+  opção
+  -n,
+  não ocorra o salto de linha após a mensagem ser mostrada.
 
 
 env
-  Descrição do comando
+  Imprime lista de variáveis de ambiente.
 
 
 exit
