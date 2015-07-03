@@ -94,65 +94,77 @@ lastb
 
 
 ls
-  Descrição do comando
+  Lista os arquivos de um diretório.
+
+  ls [opções] [caminho/arquivo] [caminho1/arquivo1] ...
 
 
 mkdir
-  Descrição do comando
+  Cria um diretório no sistema.
 
+  mkdir [opções] [caminho/diretório] [caminho1/diretório1]
+  
 
-nome="fulano
-  Descrição do comando
+nome="fulano"
+  Cria uma variável "nome" e com valor "fulano".
 
 
 passswd
-  Descrição do comando
+  Modifica a parametros e senha de usuário.
+  
+  passwd [usuário] [opções]
 
 
 pwd
-  Descrição do comando
+  Mostra o nome e caminho do diretório atual.
 
 
 set
-  Descrição do comando
+  As variáveis de ambiente são visualizadas/criadas através do comando set
 
 
 tree
-  Descrição do comando
+  Mostra a árvore de diretórios.
 
 
 tty
-  Descrição do comando
+  Imprime o nome do arquivo atrelado ao terminal vinculado à saída padrão.
 
 
 vim
-  Descrição do comando
+  Abre um arquivo usando o editor vim.
 
 
 wait
-  Descrição do comando
+  Espera um determinado processo ou periodo de tempo terminar.
 
 
 wall
-  Descrição do comando
+  Envia uma mensagem ou conteúdo de arquivo para todos os usuarios logados.
 
 
 which
-  Descrição do comando
+  Localiza um programa na estrutura de diretórios do path,somente são mostrados arquivos executáveis.
+
+  which [programa/comando].
 
 
 while
-  Descrição do comando
+  A  mesmo estrutura de repetição de linguagens de programação.
 
 
 who
-  Descrição do comando
+  Mostra quem está atualmente conectado no computador. Este comando lista os nomes de usuários que estão conectados em seu computador, o terminal e data da conexão.
+
+  who [opções]
 
 
 whoami
-  Descrição do comando
+  Mostra o nome que usou para se conectar ao sistema.
 
 
 write
-  Descrição do comando
+  Envia uma mensagem ou conteúdo de arquivo para determinado usuário logado.
+  
+  write [usuario]
 
