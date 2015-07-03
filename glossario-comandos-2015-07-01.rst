@@ -46,27 +46,47 @@ env
 
 
 exit
-  Descrição do comando
+  Fecha um processo ou aplicação.
 
 
 help
-  Descrição do comando
+  Ajuda rápida, útil para saber que opções podem ser usadas com os comandos internos do interpretador de comandos.
 
+  help [comando]
+  
 
 HISTTIMEFORMAT="%d/%m/%y
-  Descrição do comando
+  Muda o formato em que a horário é exibido.
 
 
 hostname
-  Descrição do comando
+  Mostra ou muda o nome de seu computador na rede.
 
 
 ifconfig
-  Descrição do comando
+  Interfaces de redes.
 
 
 last
-  Descrição do comando
+  Mostra uma listagem de entrada e saída de usuários no sistema.
+  
+  last [opções]
+  
+  opções
+  -n [num]
+  Mostra [num] linhas. Caso não seja usada, todas as linhas são mostradas.
+
+  -R
+  Não mostra o campo HostName.
+
+  -a
+  Mostra o hostname na última coluna. Será muito útil se combinada com a opção -d.
+
+  -d
+  Usa o DNS para resolver o IP de sistemas remotos para nomes DNS.
+
+  -x
+  Mostra as entradas de desligamento do sistema e alterações do nível de execução do sistema.
 
 
 lastb
