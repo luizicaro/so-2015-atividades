@@ -120,7 +120,7 @@ pwd
 
 
 set
-  As variáveis de ambiente são visualizadas/criadas através do comando set
+  As variáveis de ambiente são visualizadas/criadas através do comando set.
 
 
 tree
@@ -146,7 +146,7 @@ wall
 which
   Localiza um programa na estrutura de diretórios do path,somente são mostrados arquivos executáveis.
 
-  which [programa/comando].
+  which [programa/comando]
 
 
 while
